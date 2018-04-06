@@ -3,7 +3,7 @@
 board = Array.new(9, " ")
 
 def display_board board
-    dashes = "-----------"
+  dashes = "-----------"
   puts " #{board[0]} | #{board[1]} | #{board[2]}"
   puts dashes
   puts " #{board[3]} | #{board[4]} | #{board[5]}"
